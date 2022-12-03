@@ -14,7 +14,7 @@
 
 * Make sure that python and virtual environment is installed.
 
-* Create a conda environment with `conda env create -f environment.yml`
+* Create a conda environment with `conda env create -f environment.yml`. (If this fails you might need to set your path, using this command: `export PATH="/path/to/conda/bin:$PATH"`)
 
 * If you are installing playwright for the first time, it will ask you to run this command for one time only to download all the chrome software
 ```
@@ -30,7 +30,7 @@ This version named [server2.py](https://github.com/seichris/chatGPT-telegram-bot
 * Now run the server
 
 ```
-activate conda chat
+conda activate chat
 python server.py
 ```
 
