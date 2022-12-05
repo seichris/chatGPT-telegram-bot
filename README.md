@@ -27,6 +27,8 @@ Edit the .env.example file and rename it to .env and place your values in there.
 This version named [server2.py](https://github.com/seichris/chatGPT-telegram-bot/blob/main/server.py) allows you to add multiple Telegram ids to your env vars, in the following format:
 `TELEGRAM_USER_ID=123456,654321,876543`
 
+Edit the file using `nano /etc/xrdp/chatGPT-telegram-bot/.env`
+
 * Now run the server
 
 ```
